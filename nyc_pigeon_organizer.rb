@@ -6,22 +6,11 @@ def nyc_pigeon_organizer(data)
     pigeon_data.each do |key, val|
        #p key
        #key will take the value like :color :gender :lives
-       #p val
-
+       
       val.each do |key_val, val_val|
         #p key_val
-        #key_val will take value like :purple :grey
-# :white
-# :brown
-# :male
-# :female
-# "Subway"
-# "Central Park"
-# "Library"
-# "City Hall"
-
-
-      #p val_val
+        #key_val will take value like :purple :grey# :white# :brown# :male# :female# "Subway"# "Central Park"# "Library"# "City Hall"
+        
       #val_val is an array containing the names
       val_val.each do |name|
       if !hash[name]
